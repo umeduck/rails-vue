@@ -1,4 +1,4 @@
-class Employee < ApplicationRecord
+class Employee < ActiveRecord::Base
   GENDERS = { other: 0, male: 1, female: 2 }
 
   enum gender: GENDERS
