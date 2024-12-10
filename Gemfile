@@ -62,3 +62,5 @@ end
 gem "activeadmin"
 
 gem "sassc-rails"
+
+gem "webpacker"
